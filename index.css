@@ -10,6 +10,9 @@ nav {
     padding: 20px;
     height: 60px;
     margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    width: auto;
 }
 
 ul {
@@ -57,8 +60,8 @@ li a {
 .mydesc {
     color: white;
     font-size: 24px; 
-    padding-left: 1000px;
-    font-size: 45px;
+    padding-left: 950px;
+    font-size: 40px;
 }
 section h1{
     text-align: center;
@@ -108,8 +111,121 @@ section h1{
    
 }
 .card:hover {
-    transform: translateY(-20px); /* Lift effect */
+    transform: translateY(-20px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     background-color:  #9c0e9c;
 }
+.about {
+    margin-top: 0px;
+    display: flex;
+    align-items: center; 
+}
+.about h1{
+    margin-bottom: 0px;
+}
 
+.about-image {
+    height: 600px;
+    width: auto;
+    margin-top: 0;
+}
+
+.about p {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1000px; 
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+#contact {
+    max-width: 650px;
+    margin: auto; 
+    padding: 20px; 
+    background:linear-gradient(45deg, #9c0e9c, midnightblue);
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+#contact h1 {
+    text-align: center; 
+    color:white;
+}
+#contact p{
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; 
+    color: white;
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+
+button {
+    width: 100%; 
+    padding: 10px; 
+    background: midnightblue;
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+footer {
+    margin-top: 70px; 
+    background: linear-gradient(45deg, #9c0e9c, midnightblue); 
+    color: white; 
+    padding: 40px 20px; 
+    text-align: center; 
+    height: 90px; 
+}
+
+.footer-content {
+    max-width: 800px; 
+    margin: auto;
+}
+
+.social-links, .footer-nav {
+    list-style: none; 
+    padding: 0; 
+    margin: 20px 0;
+}
+
+.social-links li, .footer-nav li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+.social-links a, .footer-nav a {
+    color: white;
+    text-decoration: none; 
+}
+
+.social-links a:hover, .footer-nav a:hover {
+    text-decoration: underline; 
+}
+
+.footer-nav {
+    margin-top: 20px; 
+}
+.footer-content p{
+    bottom: 0;
+}
