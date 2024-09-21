@@ -4,8 +4,8 @@
 }
 nav {
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
-    align-items: center; /* Vertically center items */
+    justify-content: flex-end; 
+    align-items: center; 
     background: linear-gradient(45deg, #9c0e9c, midnightblue);
     padding: 20px;
     height: 60px;
@@ -36,26 +36,58 @@ li a {
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: 60vh; 
     width: 100%;
-    margin-top: 0;
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
-section .myname{
-      margin-top: 0px;
-      display: flex;
-      justify-content: center;
-      align-items: top;
-      font-size: 50px;
-  }
-  section .myname h1{
+
+.myname {
+    color: white;
+    font-size: 36px; 
+    margin-bottom: 10px; 
+    padding-left: 1000px;
+    font-size: 80px;
+}
+
+.mydesc {
+    color: white;
+    font-size: 24px; 
+    padding-left: 1000px;
+    font-size: 45px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;  
+    margin: 20px;  
     text-align: center;
-    justify-content: flex-end;
-  }
-  .mydesc{
-      margin-top: 80px; 
-      padding-left: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: top;
-      font-size: 30px;
-  }
+    background-color: white;
+}
+
+.card-image {
+    width: 100%;  
+    height: auto;
+}
+
+.card-content {
+    padding: 16px; 
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #555;
+}
+
