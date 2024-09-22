@@ -120,8 +120,11 @@ section h1{
     display: flex;
     align-items: center; 
 }
-.about h1{
+ h1{
+    text-align: center;
     margin-bottom: 0px;
+    margin-bottom: 0;
+    font-size: 50px;
 }
 
 .about-image {
@@ -140,6 +143,118 @@ section h1{
     padding-top: 0px;
     font-weight: bold;
 }
+
+
+
+  
+  .card {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: 10px;
+    width: auto; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    margin-top: 0; 
+    font-size: 1.5em; 
+    color: black; 
+  }
+  
+  .card p {
+    color: black; 
+    font-size: 16px; 
+  }
+  
+  .card p:hover{
+    color: white; 
+    font-size: 19px; 
+    font-weight: bold;
+  }
+  .card h2:hover{
+    color: white; 
+    font-size: 26px; 
+    font-weight: bold;
+  }
+  
+    .card {
+      width: 90%; 
+      margin: 10px 0; 
+    }
+  
+  
+    .skills {
+        padding: 40px 20px; 
+        background-color: white;
+        color: black; 
+    }
+    
+    .skills h2 {
+        text-align: center; 
+        font-size: 2em; 
+        color: black;
+        margin-bottom: 30px; 
+    }
+    
+    .skills-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+    }
+    .skills-card:hover{
+        transform: translateY(-20px); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        background-color:  #9c0e9c;
+    }
+    .skills-card h3:hover{
+        color: white;
+    }
+    .skills-card {
+        background-color: #fff; 
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+        padding: 20px;
+        margin: 10px;
+        max-width: 200px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.2s, box-shadow 0.2s; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .skills-card:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .skills-card img {
+        max-width: 60px; 
+        margin-bottom: 10px; 
+    }
+    
+    .skills-card h3 {
+        font-size: 1.5em; 
+        margin: 10px 0; 
+        text-align: center; 
+    }
+    
+    .skills-card p {
+        text-align: center; 
+        color: black; 
+    }
+    .skills-card p:hover{
+        font-size: 20px; 
+        color: white; 
+    }
 #contact {
     max-width: 650px;
     margin: auto; 
