@@ -116,6 +116,7 @@ section h1{
     background-color:  #9c0e9c;
 }
 .about {
+    padding: 0px;
     margin-top: 0px;
     display: flex;
     align-items: center; 
@@ -123,7 +124,6 @@ section h1{
  h1{
     text-align: center;
     margin-bottom: 0px;
-    margin-bottom: 0;
     font-size: 50px;
 }
 
@@ -135,7 +135,7 @@ section h1{
 
 .about p {
     color: black;
-    margin-top: 0;
+    margin-top: 0px 10px;
     margin-bottom: 0;
     max-width: 1000px; 
     padding-left: 30px;
